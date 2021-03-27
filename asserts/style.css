@@ -1,0 +1,172 @@
+/* ===================== COMPONENTS ====================== */
+.btn-container {
+    margin-top: 35px;
+    flex-wrap: nowrap;
+    display: flex;
+}
+
+.footer-container {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    color: grey;    
+    
+}
+
+.nav-container {
+    justify-content:flex-end;
+    height: 60px;
+    width: 100%;
+    flex-wrap: nowrap;    
+}
+
+.input-container {
+    margin-top: 1.5rem; 
+    border: 1px solid rgb(223, 221, 238);
+    padding: 1rem;
+    border-radius: 25px;
+    width: 45rem
+}
+
+.input-container:hover {
+    margin-top: 1.5rem; 
+    border: 1px solid rgb(223, 221, 238);
+    padding: 1rem;
+    border-radius: 25px;
+    box-shadow: 2px 2px 2px 1px rgba(148, 144, 144, 0.15);
+}
+
+.hero-container {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* =====================  ELEMENTS ======================== */
+.btn {
+    padding: 0.6rem 1rem;
+    background: rgb(162, 164, 167);
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    border-radius: 5px;
+    text-decoration: none;     
+    margin-right: 2rem;    
+    width: 150px;
+    color: rgb(97, 90, 90);
+}
+
+.btn:hover {
+    padding: 0.6rem 1rem;
+    background: rgb(162, 164, 167);
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    border-radius: 5px;
+    text-decoration: none;     
+    margin-right: 2rem;    
+    width: 150px;    
+    box-shadow: 2px 2px 2px 1px rgba(243, 234, 234, 0.001);
+}
+
+.btn-menu-icon {
+    margin: 0 0.1rem;
+    padding: 0.5rem;
+}
+
+.btn-menu-icon:hover {    
+    border-radius: 50%;
+    background: rgba(228, 228, 228, 0.33);
+}
+
+.btn-profile-photo {
+    margin: 0 1.3rem;
+    border-radius: 50%;       
+    padding: 0.3rem;
+}
+
+.btn-profile-photo:hover {
+    margin: 0 1.3rem;
+    border-radius: 50%; 
+    background: rgba(228, 228, 228, 0.33);
+}
+
+.content-lenguages {
+    margin-top: 2rem;    
+}
+
+.icon-len {
+    margin-right: 20ox;
+    height: 13px;
+}
+
+.input-text {
+    width: 80%;
+    border: none;
+    outline: none;
+    margin-left: 20px;
+    font-size: 1.3rem;
+}
+
+.link2 {
+    margin-left: 0.8rem;
+}
+
+.logo {
+    margin: auto;    
+}
+
+
+
+/* ======================= LAYOUT ========================= */
+.bg-grey {
+    background: #f2f2f2;
+}
+
+
+/* =====================  UTILITIES ======================== */
+.align-center {
+    align-items: center;
+}
+
+.d-flex {
+    display: flex;
+}
+
+
+.fsize2 {
+    font-size: 1.22rem;
+}
+
+.justify-center {
+    justify-content: center;
+}   
+
+.m-left {
+    margin: 0 2rem
+}
+
+.border-b {
+   border-bottom: 1px solid rgba(208, 204, 204, 0.775);
+   
+}
+
+.menu-list {
+    width: 8.3rem;
+    justify-content: space-between;
+    margin: 0 1.5rem;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.h-3 {
+    height: 3rem;
+}
